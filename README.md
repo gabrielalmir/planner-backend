@@ -4,20 +4,20 @@ Backend do Planner, uma aplicação de gerenciamento de viagens.
 
 ## Como usar
 
-- 1. Clone o Repositório
+1. Clone o Repositório
 
 ```bash
 git clone https://github.com/gabrielalmir/planner-backend
 cd planner-backend
 ```
 
-- 2. Instale as dependências
+2. Instale as dependências
 
 ```bash
 npm i
 ```
 
-- 3. Inicie a aplicação
+3. Inicie a aplicação
 
 ```bash
 npm run dev
