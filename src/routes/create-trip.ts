@@ -51,9 +51,9 @@ export async function createTrip(app: FastifyInstance) {
 
         const mail = await getMailClient();
         const message = await mail.sendMail({
-            from: { name: 'Equipe journey', address: 'hi@journey.com.br' },
+            from: { name: 'Equipe Planner', address: 'hi@plann.er' },
             to: { name: owner_name, address: owner_email },
-            subject: `Journey - Confirme sua viagem para ${destination}`,
+            subject: `Planner - Confirme sua viagem para ${destination}`,
             html: `
                 <div style="font-family: sans-serif; font-size: 16px; line-height: 1.6;">
                     <p>Você solicitou a criação de uma viagem para <strong>${destination}</strong>, nas datas de <strong>${formattedStartDate}</strong> até <strong>${formattedEndDate}</strong>.</p>
